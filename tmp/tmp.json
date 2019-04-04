@@ -1,0 +1,104 @@
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 560473952,
+            "message": {
+                "message_id": 3,
+                "from": {
+                    "id": 244541436,
+                    "is_bot": false,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 244541436,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "type": "private"
+                },
+                "date": 1554390656,
+                "text": "\u041f\u0440\u0438\u0432\u0435\u0442"
+            }
+        },
+        {
+            "update_id": 560473953,
+            "message": {
+                "message_id": 4,
+                "from": {
+                    "id": 244541436,
+                    "is_bot": false,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 244541436,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "type": "private"
+                },
+                "date": 1554390865,
+                "text": "re"
+            }
+        },
+        {
+            "update_id": 560473954,
+            "message": {
+                "message_id": 5,
+                "from": {
+                    "id": 244541436,
+                    "is_bot": false,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 244541436,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "type": "private"
+                },
+                "date": 1554390951,
+                "text": "re"
+            }
+        },
+        {
+            "update_id": 560473955,
+            "message": {
+                "message_id": 6,
+                "from": {
+                    "id": 244541436,
+                    "is_bot": false,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 244541436,
+                    "first_name": "\u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d",
+                    "last_name": "\u0422\u0438\u0449\u0435\u043d\u043a\u043e",
+                    "username": "RanFog",
+                    "type": "private"
+                },
+                "date": 1554391152,
+                "text": "/start",
+                "entities": [
+                    {
+                        "offset": 0,
+                        "length": 6,
+                        "type": "bot_command"
+                    }
+                ]
+            }
+        }
+    ]
+}
