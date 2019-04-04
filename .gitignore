@@ -4,3 +4,5 @@ tmp/
 sh/
 #игнор ключа
 settings.php
+github_www-data
+github_www-data.pub

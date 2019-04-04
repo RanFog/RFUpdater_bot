@@ -7,7 +7,7 @@ function update_test()
     //return shell_exec ("whoami"); //www-data
     //return shell_exec ("groups"); //www-data
     //return shell_exec ("sudo mkdir 121212");
-    return shell_exec ("su const mkdir 4").shell_exec ("su const ls -la");
+    return shell_exec ("sh sh/FRTEST.sh");
     //return "Обновлено";
     }
 ?>
