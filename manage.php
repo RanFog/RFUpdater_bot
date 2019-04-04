@@ -23,8 +23,8 @@ function bot_manager($message, $chat_id, $user_id)
 			    if (substr($mess,1,7) == "chat_id") sendMessage($chat_id, $chat_id);
 				if (substr($mess,1,7) == "user_id") sendMessage($chat_id, $user_id);
 				//----- Команды Обновлений ---
-				if (substr($mess,1,11) == "update_test") return update_test();
-	
+				if (substr($mess,1,15) == "update_test_bot") return update_test();
+				if (substr($mess,1,18) == "update_updater_bot") return update_updater();
 				break;
 			    }
 		case 'NULL':

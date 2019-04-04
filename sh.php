@@ -10,7 +10,7 @@ function update_test()
     return shell_exec ("sh sh/FRTEST.sh");
     //return "Обновлено";
     }
-function update_update()
+function update_updater()
     {
     //echo shell_exec("sh -S /var/www/html/telebots/FRUPDATER/sh/FRTEST.sh");
     //return shell_exec ("ls -la");
