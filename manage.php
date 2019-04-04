@@ -3,6 +3,7 @@
 include 'Auth/Auth.php';	   //Файл авторизации
 include 'tfcommands/text.php'; //Файл с текстами команд
 include 'sh.php';
+
 function bot_manager($message, $chat_id, $user_id)
     {
 	//Понижение регистра
@@ -20,7 +21,10 @@ function bot_manager($message, $chat_id, $user_id)
 			    if (substr($mess,1,5) == "proxy") return TBPROXY;
 			    //----- Команды помошники -----
 			    if (substr($mess,1,7) == "chat_id") sendMessage($chat_id, $chat_id);
-			    if (substr($mess,1,7) == "user_id") sendMessage($chat_id, $user_id);
+				if (substr($mess,1,7) == "user_id") sendMessage($chat_id, $user_id);
+				//----- Команды Обновлений ---
+				if (substr($mess,1,11) == "update_test") return update_test();
+	
 				break;
 			    }
 		case 'NULL':
