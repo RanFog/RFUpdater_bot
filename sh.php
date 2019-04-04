@@ -7,7 +7,7 @@ function update_test()
     //return shell_exec ("whoami"); //www-data
     //return shell_exec ("groups"); //www-data
     //return shell_exec ("sudo mkdir 121212");
-    return shell_exec ("mkdir 121212").shell_exec ("ls -la");
+    return shell_exec ("mkdir 121212222").shell_exec ("ls -la");
     //return "Обновлено";
     }
 ?>
