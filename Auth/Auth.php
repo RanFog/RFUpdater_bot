@@ -6,12 +6,12 @@ include 'Auth_ID.php';
 function Auth($user_id)
     {
     foreach (ROOT as $i) //ROOT - группа пользователей, прописывается в Auth_ID.php
-        if ($user_id == $i) return "root";
+        if ($user_id == $i) return "user";
  /* Так задавать новые группы:
     foreach (***имя группы*** as $i)
         if ($user_id == $i) return "***имя группы***";
 */
 
-    return "student";
+    return "NULL";
     }
 ?>
