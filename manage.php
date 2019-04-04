@@ -12,7 +12,7 @@ function bot_manager($message, $chat_id, $user_id)
 
 	switch (Auth($user_id))
 		{
-		case 'root':
+		case 'user':
 			if ($mess[0] == "/")
 				{
 				//----- Обязательные команды -- help и start
