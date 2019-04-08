@@ -32,7 +32,9 @@ function bot_manager($message, $chat_id, $user_id)
 				{
 				//----- Обязательные команды -- help и start
    	     	    if (substr($mess,1,4) == "help") return TBHELP;
- 	    	    if (substr($mess,1,5) == "start") return TBSTART;
+				if (substr($mess,1,5) == "start") return TBSTART;
+				//----- User_ID ---------------------
+				if (substr($mess,1,7) == "user_id") sendMessage($chat_id, $user_id);
 			    break;
 				}
 		default: break;
