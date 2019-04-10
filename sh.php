@@ -21,4 +21,12 @@ function update_updater()
     return shell_exec ("cd /var/www/html/telebots/FRUPDATER/").shell_exec ("git pull");
     //return "Обновлено";
     }
+ function update_kbuo()
+    {
+    return shell_exec ("sh sh/KBUO.sh");
+    }
+function update_kbccna()
+    {
+    return shell_exec ("sh sh/KBCCNA.sh");
+    }  
 ?>
