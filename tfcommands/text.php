@@ -2,6 +2,9 @@
 const TBHELP_ROOT = "Привет. Ваша роль ROOT. Вам доступны следующие команды:
 /update_test_bot - Обновить тестового бота
 /update_updater_bot - Обновить Этого бота
+/update_kbuo_bot - Обновить бота умный одногруппник (Катя)
+/update_kbccna_bot - Обновить бота CCNA (Катя)
+
 /proxy - Запросить прокси для телеграмм
 /chat_id - Запросить id чата
 /user_id - Запросить свой id
