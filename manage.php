@@ -27,7 +27,7 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,18) == "update_updater_bot") return update_updater();
 				if (substr($mess,1,15) == "update_kbuo_bot") return update_kbuo();
 				if (substr($mess,1,17) == "update_kbccna_bot") return update_kbccna();
-				if (substr($mess,1,17) == "update_kbccna_bot") return update_lbuo();
+				if (substr($mess,1,15) == "update_lbuo_bot") return update_lbuo();
 				break;
 			    }
 		case 'NULL':
