@@ -29,4 +29,8 @@ function update_kbccna()
     {
     return shell_exec ("sh sh/KBCCNA.sh");
     }  
+function update_lbuo()
+    {
+    return shell_exec ("sh sh/LBUO.sh");
+    }  
 ?>
