@@ -33,4 +33,8 @@ function update_lbuo()
     {
     return shell_exec ("sh sh/LBUO.sh");
     }  
+function update_uo()
+    {
+    return shell_exec ("cd /var/www/html/telebots/UO/").shell_exec ("git pull");
+    }  
 ?>
