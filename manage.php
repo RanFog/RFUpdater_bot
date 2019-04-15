@@ -29,6 +29,7 @@ function bot_manager($message, $chat_id, $user_id)
 				if (substr($mess,1,17) == "update_kbccna_bot") return update_kbccna();
 				if (substr($mess,1,15) == "update_lbuo_bot") return update_lbuo();
 				if (substr($mess,1,13) == "update_uo_bot") return update_uo();
+				if (substr($mess,1,13) == "update_dap_mfc_bot") return update_dap_mfc();
 				break;
 			    }
 		case 'NULL':
