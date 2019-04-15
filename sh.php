@@ -37,4 +37,8 @@ function update_uo()
     {
     return shell_exec ("sh sh/UO.sh");
     }  
+function update_dap_mfc()
+    {
+    return shell_exec ("sh sh/DAP.sh");
+    }     
 ?>
